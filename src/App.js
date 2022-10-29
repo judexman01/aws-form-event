@@ -267,6 +267,7 @@ function App() {
             Which of theses security tracks are you interested in?
           </label>
           <select name='role' id='role' ref={roleVal}>
+            <option value='select-option'>Select option</option>
             <option value='IAM'>IAM</option>
             <option value='DevSecOps'>DevSecOps</option>
             <option value='Infrastructure-sec'>Infrastructure Security</option>
@@ -277,6 +278,7 @@ function App() {
             sponsors?
           </label>
           <select name='contact' id='contact' ref={contactVal}>
+            <option value='select-option'>Select option</option>
             <option value='yes'>Yes</option>
             <option value='no'>No</option>
           </select>
