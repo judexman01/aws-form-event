@@ -146,9 +146,9 @@ function App() {
               Data: "Registered",
             },
           },
-          Source: "muhammeddo905@gmail.com" /* required */,
+          Source: "etuk_imoh@yahoo.com" /* required */,
           ReplyToAddresses: [
-            "muhammeddo905@gmail.com",
+            "etuk_imoh@yahoo.com",
             /* more items */
           ],
         };
@@ -156,11 +156,11 @@ function App() {
           Destination: {
             /* required */
             CcAddresses: [
-              "muhammeddo905@gmail.com",
+              "etuk_imoh@yahoo.com",
               /* more items */
             ],
             ToAddresses: [
-              "muhammeddo905@gmail.com",
+              "etuk_imoh@yahoo.com",
               /* more items */
             ],
           },
@@ -182,9 +182,9 @@ function App() {
               Data: "Registered",
             },
           },
-          Source: "muhammeddo905@gmail.com" /* required */,
+          Source: "etuk_imoh@yahoo.com" /* required */,
           ReplyToAddresses: [
-            "muhammeddo905@gmail.com",
+            "etuk_imoh@yahoo.com",
             /* more items */
           ],
         };
@@ -296,8 +296,13 @@ function App() {
         </form>
       )}
 
-      {submitPage && <h1>Thank You for Registering!</h1>}
-      {/* <div>
+      {submitPage && (
+        <div className={classes.centered_message}>
+          <h1>You're welcome to the Summit.</h1>
+          <h2 className={classes.thanks}>Thank you for joining us.</h2>
+        </div>
+      )}
+      {/* <div> 
         <button onClick={testHandler}>Test</button>
       </div> */}
     </div>
